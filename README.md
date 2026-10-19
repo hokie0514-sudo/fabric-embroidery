@@ -10,17 +10,17 @@ Turn flat artwork into realistic fabric-and-embroidery visuals while preserving 
 
 | 示例 | 原图 / Before | 刺绣效果 / After |
 | --- | --- | --- |
-| star-wars | ![Before](examples/star-wars-before.png) | ![After](examples/star-wars-after.png) |
-| space-odyssey | ![Before](examples/space-odyssey-before.png) | ![After](examples/space-odyssey-after.png) |
-| back-to-the-future | ![Before](examples/back-to-the-future-before.png) | ![After](examples/back-to-the-future-after.png) |
-| artemis | ![Before](examples/artemis-before.png) | ![After](examples/artemis-after.png) |
-| character | ![Before](examples/character-before.png) | ![After](examples/character-after.png) |
+| star-wars | ![Before](star-wars-before.png) | ![After](star-wars-after.png) |
+| space-odyssey | ![Before](space-odyssey-before.png) | ![After](space-odyssey-after.png) |
+| back-to-the-future | ![Before](back-to-the-future-before.png) | ![After](back-to-the-future-after.png) |
+| artemis | ![Before](artemis-before.png) | ![After](artemis-after.png) |
+| character | ![Before](character-before.png) | ![After](character-after.png) |
 
 ## 安装 / Installation
 
-下载仓库，将 `skills/fabric-embroidery` 文件夹放入项目的 `.agents/skills/` 目录。也可以向 Codex 的 `$skill-installer` 提供本仓库链接及路径 `skills/fabric-embroidery`，让它安装。
+点击 Code → Download ZIP 并解压，将解压后的仓库文件夹重命名为 `fabric-embroidery`，再放入项目的 `.agents/skills/` 目录。确保入口位置为 `.agents/skills/fabric-embroidery/SKILL.md`。
 
-Copy `skills/fabric-embroidery` into your project's `.agents/skills/` directory, or provide this repository URL and skill path to Codex's `$skill-installer`.
+Download and extract the repository ZIP, rename its folder to `fabric-embroidery`, and copy it into your project's `.agents/skills/` directory. The entry point should be `.agents/skills/fabric-embroidery/SKILL.md`.
 
 ## 使用 / Usage
 
@@ -36,9 +36,9 @@ An image-editing tool is required. This skill contains workflow instructions and
 
 ## 文件 / Files
 
-- `skills/fabric-embroidery/SKILL.md`: 技能入口与工作流程。
-- `skills/fabric-embroidery/references/conversion-prompt.md`: 原始英文转换提示词。
-- `examples/`: 五组处理前后示例。
+- `SKILL.md`: 技能入口与工作流程。
+- `conversion-prompt.md`: 原始英文转换提示词。
+- `*-before.png` / `*-after.png`: 五组处理前后示例。
 
 ## 输出范围 / Scope
 

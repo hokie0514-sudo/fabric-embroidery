@@ -10,7 +10,7 @@ Use an available image-editing tool with the user's image as the edit target. Th
 ## Workflow
 
 1. Inspect the supplied image. Identify the background fabric, foreground embroidery, text, genuine cutouts, and layer overlaps. Ask for the edit target only when multiple inputs are ambiguous.
-2. Read [the conversion prompt](references/conversion-prompt.md) and use it to guide the edit. Treat the original image as the authority for text, composition, colors, and proportions. Change materials only.
+2. Read [the conversion prompt](conversion-prompt.md) and use it to guide the edit. Treat the original image as the authority for text, composition, colors, and proportions. Change materials only.
 3. Use fine plain-weave fabric for the background and fine, low-relief stitches for foreground text and graphics. Preserve transparency, counters, and underlying layers. Do not add props, frames, watermarks, or decorative stitch patterns absent from the design.
 4. Compare the result with the original: check wording, line breaks, colors, silhouettes, spacing, cutouts, and stitch direction. If needed, make at most two focused corrections while locking the remaining design.
 5. Save a separate PNG without overwriting the source. Use the user's chosen output folder or the current workspace output folder. Preserve the aspect ratio and report any size change or remaining visible mismatch.
